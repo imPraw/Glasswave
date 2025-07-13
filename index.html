@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPlayer</title>
+    <link rel = "stylesheet" href = "styles.css"> 
+</head>
+<body>
+    <audio> 
+        <source src = "/playlist/track_1.mp3" type = "audio/mpeg"> 
+    </audio>
+    <div class="title">
+        <div id="song_name"> </div>
+        <div id="artist_name"> </div>
+    </div>
+    <div class="media_controls">
+        <button id ="left_skip_button" class = "skip_button">⏮</button>
+        <button id ="play_button" class = "play_pause_button">▶</button>
+        <button id ="pause_button" class = "play_pause_button">⏸</button>
+        <button id ="right_skip_button" class = "skip_button">⏭</button>
+    </div>
+
+    <script src ="index.js"></script>
+</body>
+
+</html>
